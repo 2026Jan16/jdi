@@ -1,0 +1,18 @@
+April 8, 2026
+
+What: To understand the following -
+1. DPDK Ecosystem: Hardware + kernel space + user space components.
+   . What makes a NIC usable for DPDK.
+   . What happens in the kernel space and how (hardware and software components)
+
+2. Application setup: EAL, MBUFS, POOLS. (setup, structures not process)
+
+3. Packet processing: ingress, pipeline, offload, egress.
+   . What happens in user space and how (input, processing, output)
+
+4. Study an example, ip_pipeline
+
+
+How:
+1. Ask chatgpt to explain it first.
+2. Theory to Code

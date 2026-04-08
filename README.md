@@ -3,15 +3,15 @@ Just Do It
 
 ## It's a game and following are the rules - 
 
-Scope: Only today. After today this file becomes invalid and so does everything in it or attached to it.
-Task: Does not matter. Decide anything. But it can only be 1 thing and then do it.
-Details of the task have to be broken down in this file, like activities and expected outcomes.
+Scope: Only today. After today this file becomes invalid and so does everything in it or attached to it.   
+Task: Does not matter. Decide anything. But it can only be 1 thing and then do it.    
+Details of the task have to be broken down in this file, like activities and expected outcomes.    
 
 ## Criteria
-First: Clarity
-Second: Precise, Finite, Closed not open ended.
+First: Clarity    
+Second: Precise, Finite, Closed not open ended.    
 Third: Format or Structured Learning. The task should have some sense of format, organization which helps in record keeping, optimizations,
-	so that we don't need to redo the whole thing again and again.
+	so that we don't need to redo the whole thing again and again.     
 
 ## Goal
 To overcome my epic procrastination habit and everytime I decide to do something, it very quickly, gets overwhelming as I go over

@@ -19,3 +19,22 @@ echo "deb [signed-by=/usr/share/keyrings/oneapi-archive-keyring.gpg] https://apt
 
 3. sudo apt update
 4. sudo apt install intel-oneapi-base-toolkit
+
+5. sudo apt update
+6. sudo apt -y install cmake pkg-config build-essential
+
+## Install GPU drivers - 
+
+wget -qO - https://repositories.intel.com/gpu/intel-graphics.key |
+    sudo gpg --yes --dearmor --output /usr/share/keyrings/intel-graphics.gpg
+
+
+1. Download offline repo using the following script -
+. /etc/os-release
+if [[ ! " jammy " =~ " ${VERSION_CODENAME} " ]]; then
+    echo "Ubuntu version ${VERSION_CODENAME} not supported"
+else
+    wget https://repositories.intel.com/gpu/ubuntu/dists/jammy/lts/2350/intel-gpu-ubuntu-${VERSION_CODENAME}-2350.run
+    chmod +x intel-gpu-ubuntu-${VERSION_CODENAME}-2350.run
+    sudo ./intel-gpu-ubuntu-${VERSION_CODENAME}-2350.run
+fi

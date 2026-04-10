@@ -34,3 +34,8 @@ Exercise -
 syscl installation - 
 sudo apt install intel-oneapi-dpcpp-cpp-compiler
 
+
+
+## offline installation works well.
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html?packages=oneapi-toolkit&oneapi-toolkit-os=linux&oneapi-lin=offline
+

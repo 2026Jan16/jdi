@@ -1,1 +1,0 @@
-Understand how can we do gpu programming on laptop.

@@ -1,0 +1,36 @@
+CPU: complex circuits designed to handle complex tasks | optimized for latency | complex control logic
+GPU: simpler circuits designed to handle simple but repetitive tasks | optimized for throughput | simple control logic, massive parallelism
+
+CPU:
+for (i = 0; i < N; i++) {
+    do_work(i);
+}
+
+
+GPU:
+launch N threads:
+    each thread runs do_work(i)
+
+
+Memory model - CPU
+Registers → L1 → L2 → L3 → RAM
+
+Memory model - GPU
+Thread private (registers)
+Shared memory (fast, per block) - manually managed caches 
+Global memory (slow, large) - RAM
+
+Mental model - 
+GPU loves: same operation on large data
+GPU hates: branching, dependencies
+
+Exercise - 
+1. Sorting a list of 100 numbers - CPU
+2. Adding two arrays of size 10 million - GPU
+3. Parsing JSON - CPU
+4. Matrix multiplication - GPU
+
+
+syscl installation - 
+sudo apt install intel-oneapi-dpcpp-cpp-compiler
+

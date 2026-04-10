@@ -1,1 +1,3 @@
 KiCAD
+
+Computer Graphics Course - math, parallelism.
